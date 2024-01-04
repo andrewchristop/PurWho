@@ -24,6 +24,14 @@ def process(path):
 list1 = process('./classes/1.html')
 list2 = process('./classes/2.html')
 
+maxl = max(len(list1), len(list2))
+minl = min(len(list1), len(list2))
+
+
+#print("\nClass List comparison side-by-side")
+#df = pd.DataFrame({'Class_1': list1, 'Class_2': list2})
+#print(df)
+
 print("List of people who attended the same two classes together:")
 for person in list1:
   for friend in list2:
