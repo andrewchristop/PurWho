@@ -14,4 +14,5 @@ Below are the steps to get started:
 7. Repeat steps 1 to 4
 8. Save the second classlist as `2.html`
 9. Move only `2.html` to the directory `classes`
-10. Enjoy
+10. Move to the project working directory then execute `python main.py`
+11. Enjoy
