@@ -17,6 +17,15 @@ def process(path):
   extract = []
   
   for clean in names:
-    print(clean.text)
+    extract.append(clean.text)
+    #print(clean.text)
+  return(extract)
 
-process('./classes/2.html')
+list1 = process('./classes/1.html')
+list2 = process('./classes/2.html')
+
+print("List of people who attended the same two classes together:")
+for person in list1:
+  for friend in list2:
+    if (person == friend):
+      print(person)
