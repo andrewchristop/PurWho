@@ -26,11 +26,19 @@ list2 = process('./classes/2.html')
 
 maxl = max(len(list1), len(list2))
 minl = min(len(list1), len(list2))
+diff = maxl - minl
 
+if (diff > 0):
+  if (minl == len(list1)):
+    for i in range(0, diff):
+      list1.append("None")
+  elif (minl == len(list2)):
+    for j in range(0, diff):
+      list2.append("None")
 
-#print("\nClass List comparison side-by-side")
-#df = pd.DataFrame({'Class_1': list1, 'Class_2': list2})
-#print(df)
+print("\nClass List comparison side-by-side")
+df = pd.DataFrame({'Class_1': list1, 'Class_2': list2})
+print(df)
 
 print("List of people who attended the same two classes together:")
 for person in list1:
