@@ -2,7 +2,7 @@
 
 Ever wonder if the person you see in one class is the same person in another? Do not fret because PurWho has got your back
 
-PurWho is a simple Python script that parses the BrightSpace class email directory to look for commonalities across two classes. 
+PurWho is a simple Python scraper that parses the BrightSpace class email directory to look for commonalities across two classes. 
 
 Below are the steps to get started:
 1. Log in to BrightSpace
